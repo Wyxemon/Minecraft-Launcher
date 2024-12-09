@@ -617,7 +617,7 @@ class MainWindow(QMainWindow):
 
         # Variables predefinidas
         mine_user = file_content.strip() or "Player"
-        ram = self.ram
+        ram = self.ram or 4
         version_seleccionada = self.version_combo_box_instaler.currentText()
 
         # Función para ejecutar Minecraft
